@@ -1,0 +1,45 @@
+2020-15-07 10:51:08   INFO [loginTest] : AC passed
+2020-15-07 10:51:10   INFO [loginTest] : Driver is tearDown
+2020-15-07 10:58:40   INFO [loginTest] : Driver is tearDown
+2020-15-07 10:59:49   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:02:22   INFO [loginTest] : AC passed
+2020-15-07 11:02:24   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:04:56   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (99ea607c-88dd-4f2d-9d49-18befa645e6b)] -> xpath: //*[@text='CLOSE']] was clicked
+2020-15-07 11:05:32   INFO [loginTest] : AC passed
+2020-15-07 11:05:35   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:16:10   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='CLOSE']] was clicked
+2020-15-07 11:16:12   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 11:16:12   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Email']] was entered
+2020-15-07 11:16:14   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Password']] was entered
+2020-15-07 11:16:15   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 11:16:34   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='While using the app']] was clicked
+2020-15-07 11:16:36   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 11:16:37   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 11:16:43   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Logbook']] is enable
+2020-15-07 11:16:44   INFO [loginTest] : AC passed
+2020-15-07 11:16:46   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:35:02   INFO [loginTest] : Android will be started
+2020-15-07 11:35:48   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='CLOSE']] was clicked
+2020-15-07 11:35:49   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 11:35:51   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Email']] was entered
+2020-15-07 11:35:52   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Password']] was entered
+2020-15-07 11:35:53   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 11:36:13   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='While using the app']] was clicked
+2020-15-07 11:36:15   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 11:36:16   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 11:36:21   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Logbook']] is enable
+2020-15-07 11:36:22   INFO [loginTest] : AC passed
+2020-15-07 11:36:25   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:51:24   INFO [loginTest] : Android will be started
+2020-15-07 12:18:18   INFO [loginTest] : Android will be started
+2020-15-07 12:19:06   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='CLOSE']] was clicked
+2020-15-07 12:19:08   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 12:19:08   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Email']] was entered
+2020-15-07 12:19:09   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Password']] was entered
+2020-15-07 12:19:10   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Log in']] was clicked
+2020-15-07 12:19:29   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='While using the app']] was clicked
+2020-15-07 12:19:31   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 12:19:32   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Deny']] was clicked
+2020-15-07 12:19:37   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Logbook']] is enable
+2020-15-07 12:19:38   INFO [loginTest] : AC passed
+2020-15-07 12:19:40   INFO [loginTest] : Driver is close
