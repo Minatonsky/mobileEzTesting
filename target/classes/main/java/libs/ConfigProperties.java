@@ -7,5 +7,6 @@ public interface ConfigProperties extends Config {
     long TIME_FOR_EXPLICIT_WAIT_LOW();
     long TIME_FOR_EXPLICIT_WAIT_HIGHT();
 
-    String android_url();
+
+    String DATA_FILE_PATH();
 }

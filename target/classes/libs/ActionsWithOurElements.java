@@ -54,4 +54,15 @@ public class ActionsWithOurElements {
             return false;
         }
     }
+    public boolean clearElement(AndroidElement androidElement){
+        try{
+            androidElement.clear();
+            logger.info("Element " + androidElement + " is cleared");
+            return androidElement.isEnabled();
+        } catch(Exception e){
+            logger.info("Element is enabled - > false");
+            printErrorAndStopTest(e);
+            return false;
+        }
+    }
 }

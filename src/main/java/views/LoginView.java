@@ -2,9 +2,13 @@ package views;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import org.apache.log4j.Logger;
+
+import static libs.Utils.waitABit;
 
 
 public class LoginView extends ParentView{
+    Logger logger = Logger.getLogger(getClass());
 
 
     public LoginView(AndroidDriver<AndroidElement> driver) {
@@ -14,7 +18,6 @@ public class LoginView extends ParentView{
 
     public void closeUpdatePopUp() {
         actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
-
     }
 
     public void clickOnLoginButton() {
@@ -45,6 +48,19 @@ public class LoginView extends ParentView{
         actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Deny']"));
     }
     public boolean isMainViewDisplayed(){return actionsWithOurElements.isElementEnable(driver.findElementByXPath("//*[@text='Logbook']"));}
+
+    public void logIn(String login, String pass){
+        waitABit(20);
+        closeUpdatePopUp();
+        clickOnLoginButton();
+        enterLogin(login);
+        enterPass(pass);
+        clickOnSubmitLoginButton();
+        clickOnAccessLocationPopUp();
+        clickOnDenyContactPopUp();
+        clickOnDenyPhotoPopUp();
+        waitABit(5);
+    }
 
 
 }
