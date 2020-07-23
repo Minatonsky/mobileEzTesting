@@ -1,16 +1,16 @@
 package views;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.AppiumDriver;
 import libs.ActionsWithOurElements;
+import org.openqa.selenium.WebElement;
 
 
 public class ParentView {
 
-    AndroidDriver<AndroidElement> driver;
+    AppiumDriver driver;
     ActionsWithOurElements actionsWithOurElements;
 
-    public ParentView(AndroidDriver<AndroidElement> driver) {
+    public ParentView(AppiumDriver<WebElement> driver) {
         this.driver = driver;
         actionsWithOurElements = new ActionsWithOurElements(driver);
     }

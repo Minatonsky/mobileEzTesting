@@ -1,20 +1,23 @@
 package libs;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.ios.IOSDriver;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 
 
 public class ActionsWithOurElements {
-    AndroidDriver<AndroidElement> driver;
+    AppiumDriver<WebElement> driver;
     Actions action;
     Logger logger = Logger.getLogger(getClass());
 
 
-    public ActionsWithOurElements(AndroidDriver<AndroidElement> driver) {
+    public ActionsWithOurElements(AppiumDriver<WebElement> driver) {
 
         this.driver = driver;
         action = new Actions(driver);
@@ -25,29 +28,29 @@ public class ActionsWithOurElements {
         Assert.fail("Cannot work with element " + e);
     }
 
-    public void clickOnElement(AndroidElement androidElement){
+    public void clickOnElement (WebElement webElement){
         try{
-            androidElement.click();
-            logger.info("Element " + androidElement + " was clicked");
+            webElement.click();
+            logger.info("Element " + webElement + " was clicked");
         } catch(Exception e){
             printErrorAndStopTest(e);
         }
     }
 
-    public void enterTextOnElement(AndroidElement androidElement, String text){
+    public void enterTextOnElement(WebElement webElement, String text){
         try{
-            androidElement.sendKeys(text);
-            logger.info("Text " + text + " " + androidElement + " was entered");
+            webElement.sendKeys(text);
+            logger.info("Text " + text + " " + webElement + " was entered");
         } catch(Exception e){
             printErrorAndStopTest(e);
         }
     }
 
-    public boolean isElementEnable(AndroidElement androidElement){
+    public boolean isElementEnable(WebElement webElement){
         try{
-            androidElement.isEnabled();
-            logger.info("Element " + androidElement + " is enable");
-            return androidElement.isEnabled();
+            webElement.isEnabled();
+            logger.info("Element " + webElement + " is enable");
+            return webElement.isEnabled();
         } catch(Exception e){
             logger.info("Element is enabled - > false");
             printErrorAndStopTest(e);

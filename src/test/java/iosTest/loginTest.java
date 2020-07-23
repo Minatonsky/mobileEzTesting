@@ -1,3 +1,5 @@
+package iosTest;
+
 import org.junit.Test;
 import parentTest.ParentTest;
 
@@ -10,12 +12,13 @@ public class loginTest extends ParentTest {
     @Test
     public void validLogin(){
         waitABit(20);
-        loginView.closeUpdatePopUp();
+//        loginView.closeUpdatePopUp();
+//        loginView.clickOnAccessLocationPopUp();
         loginView.clickOnLoginButton();
         loginView.enterLogin(login);
         loginView.enterPass(pass);
         loginView.clickOnSubmitLoginButton();
-        loginView.clickOnAccessLocationPopUp();
+
         loginView.clickOnDenyContactPopUp();
         loginView.clickOnDenyPhotoPopUp();
         waitABit(5);

@@ -27,14 +27,11 @@ import static libs.Utils.waitABit;
 
 public class ParentTest {
 
-//    protected AppiumDriver driver = null;
-//    AndroidDriver<AndroidElement> androidDriver = (AndroidDriver) driver;
-//    IOSDriver iosDriver = (IOSDriver) driver;
+    AppiumDriver driver;
 
-    AndroidDriver<AndroidElement> driver;
     protected LoginView loginView;
     Logger logger = Logger.getLogger(getClass());
-    String driverName = "android";
+    String driverName = "ios";
 
 
     @Before
@@ -53,21 +50,18 @@ public class ParentTest {
             dc.setCapability("platformName", "android");
             dc.setCapability("appPackage", "com.ezlogz.ezlogz");
             dc.setCapability("appActivity", ".application.activities.LoginActivity");
+            dc.setCapability("NoReset", true);
             driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), dc);
 
         } else if(driverName.equals("ios")){
             logger.info("IOS will be started");
-            File classpathRoot = new File(System.getProperty("user.dir"));
-            File appDir = new File(classpathRoot, "../apps");
-            File app = new File(appDir.getCanonicalPath(), "TestApp.app.zip");
-            String deviceName = System.getenv("IOS_DEVICE_NAME");
-            String platformVersion = System.getenv("IOS_PLATFORM_VERSION");
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("deviceName", deviceName == null ? "iPhone 6s" : deviceName);
-            capabilities.setCapability("platformVersion", platformVersion == null ? "11.1" : platformVersion);
-            capabilities.setCapability("app", app.getAbsolutePath());
-            capabilities.setCapability("automationName", "XCUITest");
-//            driver = new IOSDriver<WebElement>(new URL(), capabilities);
+            capabilities.setCapability("platformName", "IOS");
+            capabilities.setCapability("platformVersion", "13.6");
+            capabilities.setCapability("deviceName", "iPhone 8");
+            capabilities.setCapability("NoReset", true);
+            capabilities.setCapability("app", "Users/liuda/Library/Developer/Xcode/DerivedData/Ezlogz-epoddvtzccjrrzcoggrteqmmhslr/Build/Products/Debug-iphonesimulator/Ezlogz.app");
+            driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
         } else {
             logger.error("Can`t init driver");
