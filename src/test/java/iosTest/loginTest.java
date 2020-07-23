@@ -1,28 +1,24 @@
+package iosTest;
 
-import org.json.simple.JSONObject;
 import org.junit.Test;
 import parentTest.ParentTest;
 
-import static libs.Utils.readJsonSimpleDemo;
 import static libs.Utils.waitABit;
 
 public class loginTest extends ParentTest {
-
-    JSONObject jsonObject = (JSONObject) readJsonSimpleDemo (configProperties.DATA_FILE_PATH() + "driverLoginWithTeamDriver_Osnova.json");
-
-    public loginTest() throws Exception {
-    }
-
+    String login = "aezlogz@gmail.com";
+    String pass = "1n91EfUV";
 
     @Test
     public void validLogin(){
         waitABit(20);
 //        loginView.closeUpdatePopUp();
+//        loginView.clickOnAccessLocationPopUp();
         loginView.clickOnLoginButton();
-        loginView.enterLogin(jsonObject.get("login").toString());
-        loginView.enterPass(jsonObject.get("pass").toString());
+        loginView.enterLogin(login);
+        loginView.enterPass(pass);
         loginView.clickOnSubmitLoginButton();
-        loginView.clickOnAccessLocationPopUp();
+
         loginView.clickOnDenyContactPopUp();
         loginView.clickOnDenyPhotoPopUp();
         waitABit(5);

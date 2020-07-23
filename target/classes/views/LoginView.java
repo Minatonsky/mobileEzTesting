@@ -1,38 +1,48 @@
 package views;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.AppiumDriver;
 import org.apache.log4j.Logger;
-
-import static libs.Utils.waitABit;
+import org.openqa.selenium.WebElement;
 
 
 public class LoginView extends ParentView{
+
+
+    private String LoginButton;
+
     Logger logger = Logger.getLogger(getClass());
 
-
-    public LoginView(AndroidDriver<AndroidElement> driver) {
-        super(driver);
+    public LoginView(AppiumDriver<WebElement> driver, String driverName) {
+        super(driver, driverName);
     }
 
 
+    public String loginButton(String driverName){
+        if (driverName.equals("ios")){
+            return LoginButton = "//XCUIElementTypeStaticText[@name='Log in']";
+        } else{
+            return LoginButton = "//*[@text='Log in']";
+        }
+    }
+
+//    String LoginButton = "//XCUIElementTypeStaticText[@name='Log in']";
+
+
     public void closeUpdatePopUp() {
-        if (driver.findElementByXPath("//*[@text='CLOSE']").isEnabled() == true){
-            actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
-        } else logger.info("No such element");
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
 
     }
 
     public void clickOnLoginButton() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Log in']"));
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath(loginButton(driverName)));
     }
 
     public void enterLogin(String text) {
-        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//*[@text='Email']"), text);
+        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[8]"), text);
     }
 
     public void enterPass(String text) {
-        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//*[@text='Password']"), text);
+        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[10]"), text);
     }
 
     public void clickOnSubmitLoginButton() {
@@ -51,19 +61,6 @@ public class LoginView extends ParentView{
         actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Deny']"));
     }
     public boolean isMainViewDisplayed(){return actionsWithOurElements.isElementEnable(driver.findElementByXPath("//*[@text='Logbook']"));}
-
-    public void logIn(String login, String pass){
-        waitABit(20);
-        closeUpdatePopUp();
-        clickOnLoginButton();
-        enterLogin(login);
-        enterPass(pass);
-        clickOnSubmitLoginButton();
-        clickOnAccessLocationPopUp();
-        clickOnDenyContactPopUp();
-        clickOnDenyPhotoPopUp();
-        waitABit(5);
-    }
 
 
 }
