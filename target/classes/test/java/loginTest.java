@@ -8,7 +8,7 @@ import static libs.Utils.waitABit;
 
 public class loginTest extends ParentTest {
 
-    JSONObject jsonObject = (JSONObject) readJsonSimpleDemo (configProperties.DATA_FILE_PATH() + "driverOsnova.json");
+    JSONObject jsonObject = (JSONObject) readJsonSimpleDemo (configProperties.DATA_FILE_PATH() + "driverLoginWithTeamDriver_Osnova.json");
 
     public loginTest() throws Exception {
     }

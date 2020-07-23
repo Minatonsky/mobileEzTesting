@@ -200,3 +200,13 @@
 2020-21-07 15:34:29   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Logbook']] is enable
 2020-21-07 15:34:30   INFO [loginTest] : AC passed
 2020-21-07 15:34:32   INFO [loginTest] : Driver is close
+2020-21-07 15:59:22   INFO [loginTest] : Android will be started
+2020-21-07 15:59:22   INFO [loginTest] : deviceName emulator-5554
+2020-21-07 16:00:11   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Log in']] was clicked
+2020-21-07 16:00:13   INFO [libs.ActionsWithOurElements] : Text vivika@test.test [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Email']] was entered
+2020-21-07 16:00:14   INFO [libs.ActionsWithOurElements] : Text qwerty [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Password']] was entered
+2020-21-07 16:00:14   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Log in']] was clicked
+2020-21-07 16:00:40   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='While using the app']] was clicked
+2020-21-07 16:00:42   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Deny']] was clicked
+2020-21-07 16:00:43   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Deny']] was clicked
+2020-21-07 16:01:21   INFO [loginTest] : Driver is close

@@ -17,10 +17,7 @@ public class LoginView extends ParentView{
 
 
     public void closeUpdatePopUp() {
-        if (driver.findElementByXPath("//*[@text='CLOSE']").isEnabled() == true){
-            actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
-        } else logger.info("No such element");
-
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
     }
 
     public void clickOnLoginButton() {
