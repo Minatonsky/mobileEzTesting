@@ -1,12 +1,12 @@
-2020-15-07 10:51:08   INFO [loginTest] : AC passed
-2020-15-07 10:51:10   INFO [loginTest] : Driver is tearDown
-2020-15-07 10:58:40   INFO [loginTest] : Driver is tearDown
-2020-15-07 10:59:49   INFO [loginTest] : Driver is tearDown
-2020-15-07 11:02:22   INFO [loginTest] : AC passed
-2020-15-07 11:02:24   INFO [loginTest] : Driver is tearDown
+2020-15-07 10:51:08   INFO [iosTest.loginTest] : AC passed
+2020-15-07 10:51:10   INFO [iosTest.loginTest] : Driver is tearDown
+2020-15-07 10:58:40   INFO [iosTest.loginTest] : Driver is tearDown
+2020-15-07 10:59:49   INFO [iosTest.loginTest] : Driver is tearDown
+2020-15-07 11:02:22   INFO [iosTest.loginTest] : AC passed
+2020-15-07 11:02:24   INFO [iosTest.loginTest] : Driver is tearDown
 2020-15-07 11:04:56   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (99ea607c-88dd-4f2d-9d49-18befa645e6b)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-15-07 11:05:32   INFO [loginTest] : AC passed
-2020-15-07 11:05:35   INFO [loginTest] : Driver is tearDown
+2020-15-07 11:05:32   INFO [iosTest.loginTest] : AC passed
+2020-15-07 11:05:35   INFO [iosTest.loginTest] : Driver is tearDown
 2020-15-07 11:16:10   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='CLOSE']] was clicked
 2020-15-07 11:16:12   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Log in']] was clicked
 2020-15-07 11:16:12   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Email']] was entered
@@ -16,9 +16,9 @@
 2020-15-07 11:16:36   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 11:16:37   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 11:16:43   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (03b07614-6492-4713-8c97-af07aeb4548e)] -> xpath: //*[@text='Logbook']] is enable
-2020-15-07 11:16:44   INFO [loginTest] : AC passed
-2020-15-07 11:16:46   INFO [loginTest] : Driver is tearDown
-2020-15-07 11:35:02   INFO [loginTest] : Android will be started
+2020-15-07 11:16:44   INFO [iosTest.loginTest] : AC passed
+2020-15-07 11:16:46   INFO [iosTest.loginTest] : Driver is tearDown
+2020-15-07 11:35:02   INFO [iosTest.loginTest] : Android will be started
 2020-15-07 11:35:48   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='CLOSE']] was clicked
 2020-15-07 11:35:49   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Log in']] was clicked
 2020-15-07 11:35:51   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Email']] was entered
@@ -28,10 +28,10 @@
 2020-15-07 11:36:15   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 11:36:16   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 11:36:21   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (c94735fb-953d-4adc-a92a-7a6e72eef2a2)] -> xpath: //*[@text='Logbook']] is enable
-2020-15-07 11:36:22   INFO [loginTest] : AC passed
-2020-15-07 11:36:25   INFO [loginTest] : Driver is tearDown
-2020-15-07 11:51:24   INFO [loginTest] : Android will be started
-2020-15-07 12:18:18   INFO [loginTest] : Android will be started
+2020-15-07 11:36:22   INFO [iosTest.loginTest] : AC passed
+2020-15-07 11:36:25   INFO [iosTest.loginTest] : Driver is tearDown
+2020-15-07 11:51:24   INFO [iosTest.loginTest] : Android will be started
+2020-15-07 12:18:18   INFO [iosTest.loginTest] : Android will be started
 2020-15-07 12:19:06   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='CLOSE']] was clicked
 2020-15-07 12:19:08   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Log in']] was clicked
 2020-15-07 12:19:08   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Email']] was entered
@@ -41,172 +41,58 @@
 2020-15-07 12:19:31   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 12:19:32   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Deny']] was clicked
 2020-15-07 12:19:37   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (15ca8afa-87f0-413c-aeac-f0e2544c4822)] -> xpath: //*[@text='Logbook']] is enable
-2020-15-07 12:19:38   INFO [loginTest] : AC passed
-2020-15-07 12:19:40   INFO [loginTest] : Driver is close
-2020-16-07 10:35:07   INFO [loginTest] : Android will be started
-2020-16-07 10:35:55   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-16-07 10:35:56   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Log in']] was clicked
-2020-16-07 10:35:57   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Email']] was entered
-2020-16-07 10:35:59   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Password']] was entered
-2020-16-07 10:36:00   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Log in']] was clicked
-2020-16-07 10:36:19   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='While using the app']] was clicked
-2020-16-07 10:36:21   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Deny']] was clicked
-2020-16-07 10:36:22   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Deny']] was clicked
-2020-16-07 10:36:27   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (83c6e182-15e4-4df8-9ce6-2ee95c5e83f2)] -> xpath: //*[@text='Logbook']] is enable
-2020-16-07 10:36:28   INFO [loginTest] : AC passed
-2020-16-07 10:36:31   INFO [loginTest] : Driver is close
-2020-16-07 10:37:48   INFO [loginTest] : Android will be started
-2020-16-07 10:38:31   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-16-07 10:38:32   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Log in']] was clicked
-2020-16-07 10:38:33   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Email']] was entered
-2020-16-07 10:38:35   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Password']] was entered
-2020-16-07 10:38:36   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Log in']] was clicked
-2020-16-07 10:38:54   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='While using the app']] was clicked
-2020-16-07 10:38:56   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Deny']] was clicked
-2020-16-07 10:38:57   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Deny']] was clicked
-2020-16-07 10:39:02   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2b5981f-a511-436b-9e3a-07884b9af8b7)] -> xpath: //*[@text='Logbook']] is enable
-2020-16-07 10:39:03   INFO [loginTest] : AC passed
-2020-16-07 10:39:05   INFO [loginTest] : Driver is close
-2020-17-07 16:08:16   INFO [loginTest] : Android will be started
-2020-17-07 16:09:22   INFO [loginTest] : Android will be started
-2020-17-07 16:10:11   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:10:12   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:10:13   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:10:15   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:10:16   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:10:36   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='While using the app']] was clicked
-2020-17-07 16:10:38   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Deny']] was clicked
-2020-17-07 16:10:39   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (8362f7d6-1030-4120-934f-88917a421975)] -> xpath: //*[@text='Deny']] was clicked
-2020-17-07 16:11:16   INFO [loginTest] : Driver is close
-2020-17-07 16:11:53   INFO [loginTest] : Android will be started
-2020-17-07 16:17:04   INFO [loginTest] : Android will be started
-2020-17-07 16:18:46   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (64a8fd82-f0f6-4b48-952f-f5e0eaa86968)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:18:48   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (64a8fd82-f0f6-4b48-952f-f5e0eaa86968)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:18:49   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (64a8fd82-f0f6-4b48-952f-f5e0eaa86968)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:18:50   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (64a8fd82-f0f6-4b48-952f-f5e0eaa86968)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:18:51   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (64a8fd82-f0f6-4b48-952f-f5e0eaa86968)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:19:32   INFO [loginTest] : Android will be started
-2020-17-07 16:20:22   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (652fe32c-abfa-444b-8e7e-53f61d0e2018)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:20:24   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (652fe32c-abfa-444b-8e7e-53f61d0e2018)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:20:25   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (652fe32c-abfa-444b-8e7e-53f61d0e2018)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:20:26   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (652fe32c-abfa-444b-8e7e-53f61d0e2018)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:20:26   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (652fe32c-abfa-444b-8e7e-53f61d0e2018)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:21:38   INFO [loginTest] : Android will be started
-2020-17-07 16:22:15   INFO [loginTest] : Android will be started
-2020-17-07 16:22:50   INFO [loginTest] : Android will be started
-2020-17-07 16:24:27   INFO [loginTest] : Android will be started
-2020-17-07 16:25:31   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2535fe6-7db3-4812-b433-16c55a98c1c5)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:25:32   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2535fe6-7db3-4812-b433-16c55a98c1c5)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:25:33   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (e2535fe6-7db3-4812-b433-16c55a98c1c5)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:25:34   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (e2535fe6-7db3-4812-b433-16c55a98c1c5)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:25:35   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (e2535fe6-7db3-4812-b433-16c55a98c1c5)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:26:07   INFO [loginTest] : Driver is close
-2020-17-07 16:29:43   INFO [loginTest] : Android will be started
-2020-17-07 16:30:34   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (354d1215-e30d-4e83-a018-3611efdec792)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:30:36   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (354d1215-e30d-4e83-a018-3611efdec792)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:30:36   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (354d1215-e30d-4e83-a018-3611efdec792)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:30:37   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (354d1215-e30d-4e83-a018-3611efdec792)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:30:38   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (354d1215-e30d-4e83-a018-3611efdec792)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:46:07   INFO [loginTest] : Android will be started
-2020-17-07 16:47:10   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (fc42286d-daff-4e77-9b56-41fbc846138c)] -> xpath: //*[@text='CLOSE']] was clicked
-2020-17-07 16:47:12   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (fc42286d-daff-4e77-9b56-41fbc846138c)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:47:13   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (fc42286d-daff-4e77-9b56-41fbc846138c)] -> xpath: //*[@text='Email']] was entered
-2020-17-07 16:47:14   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (fc42286d-daff-4e77-9b56-41fbc846138c)] -> xpath: //*[@text='Password']] was entered
-2020-17-07 16:47:15   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (fc42286d-daff-4e77-9b56-41fbc846138c)] -> xpath: //*[@text='Log in']] was clicked
-2020-17-07 16:47:47   INFO [loginTest] : Driver is close
-2020-17-07 17:27:22   INFO [loginTest] : Android will be started
-2020-17-07 17:28:09   INFO [loginTest] : Android will be started
-2020-17-07 17:30:32   INFO [loginTest] : Driver is close
-2020-17-07 17:32:20   INFO [loginTest] : Android will be started
-2020-20-07 11:17:03   INFO [loginTest] : Android will be started
-2020-20-07 11:18:31   INFO [loginTest] : Android will be started
-2020-20-07 11:19:07   INFO [loginTest] : Devices [Android Device with serial emulator-5554]
-2020-20-07 11:44:37   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 11:44:37   INFO [loginTest] : Android will be started
-2020-20-07 12:02:04   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 12:02:04   INFO [loginTest] : Devices []
-2020-20-07 12:02:04   INFO [loginTest] : Android will be started
-2020-20-07 13:01:36   INFO [loginTest] : Devices sub emulator-5554
-2020-20-07 13:01:36   INFO [loginTest] : Devices sub emulator-5556
-2020-20-07 13:01:36   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 13:01:36   INFO [loginTest] : Android will be started
-2020-20-07 16:39:11   INFO [loginTest] : Devices [Android Device with serial emulator-5554]
-2020-20-07 16:39:11   INFO [loginTest] : Android will be started
-2020-20-07 16:42:32   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:42:32   INFO [loginTest] : Android will be started
-2020-20-07 16:44:04   INFO [loginTest] : Driver is close
-2020-20-07 16:44:04   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:44:04   INFO [loginTest] : Android will be started
-2020-20-07 16:49:16   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:49:16   INFO [loginTest] : Android will be started
-2020-20-07 16:50:52   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:50:52   INFO [loginTest] : Android will be started
-2020-20-07 16:52:22   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:52:22   INFO [loginTest] : Android will be started
-2020-20-07 16:52:22   INFO [loginTest] : deviceNameemulator-5554
-2020-20-07 16:53:42   INFO [loginTest] : Devices [Android Device with serial emulator-5554, Android Device with serial emulator-5556]
-2020-20-07 16:53:42   INFO [loginTest] : Android will be started
-2020-20-07 16:53:42   INFO [loginTest] : deviceNameemulator-5556
-2020-21-07 14:38:02   INFO [loginTest] : Android will be started
-2020-21-07 14:38:02   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 14:38:32   INFO [loginTest] : Driver is close
-2020-21-07 14:42:35   INFO [loginTest] : Android will be started
-2020-21-07 14:42:35   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 14:46:03   INFO [loginTest] : Android will be started
-2020-21-07 14:46:03   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 14:47:21   INFO [loginTest] : Driver is close
-2020-21-07 14:47:36   INFO [loginTest] : Android will be started
-2020-21-07 14:47:36   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 14:48:19   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (4ddaf176-37bd-4b6d-842b-ebaa47c4da12)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 14:48:21   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (4ddaf176-37bd-4b6d-842b-ebaa47c4da12)] -> xpath: //*[@text='Email']] was entered
-2020-21-07 14:48:22   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (4ddaf176-37bd-4b6d-842b-ebaa47c4da12)] -> xpath: //*[@text='Password']] was entered
-2020-21-07 14:48:23   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (4ddaf176-37bd-4b6d-842b-ebaa47c4da12)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 14:48:55   INFO [loginTest] : Driver is close
-2020-21-07 14:54:02   INFO [loginTest] : Android will be started
-2020-21-07 14:54:02   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 14:55:18   INFO [loginTest] : Driver is close
-2020-21-07 15:03:05   INFO [loginTest] : Android will be started
-2020-21-07 15:03:05   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:03:49   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (138fb00e-3228-4914-858e-4eff22b79009)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:03:51   INFO [libs.ActionsWithOurElements] : Text aezlogz@gmail.com [[AndroidDriver:  on LINUX (138fb00e-3228-4914-858e-4eff22b79009)] -> xpath: //*[@text='Email']] was entered
-2020-21-07 15:03:52   INFO [libs.ActionsWithOurElements] : Text 1n91EfUV [[AndroidDriver:  on LINUX (138fb00e-3228-4914-858e-4eff22b79009)] -> xpath: //*[@text='Password']] was entered
-2020-21-07 15:03:53   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (138fb00e-3228-4914-858e-4eff22b79009)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:04:30   INFO [loginTest] : Driver is close
-2020-21-07 15:07:42   INFO [loginTest] : Android will be started
-2020-21-07 15:07:42   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:08:27   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (17f4ea3e-0cbd-41c4-a3bb-14a376ac2077)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:08:29   INFO [libs.ActionsWithOurElements] : Text vivika@test.test [[AndroidDriver:  on LINUX (17f4ea3e-0cbd-41c4-a3bb-14a376ac2077)] -> xpath: //*[@text='Email']] was entered
-2020-21-07 15:08:31   INFO [libs.ActionsWithOurElements] : Text qwerty [[AndroidDriver:  on LINUX (17f4ea3e-0cbd-41c4-a3bb-14a376ac2077)] -> xpath: //*[@text='Password']] was entered
-2020-21-07 15:08:32   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (17f4ea3e-0cbd-41c4-a3bb-14a376ac2077)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:09:10   INFO [loginTest] : Driver is close
-2020-21-07 15:13:46   INFO [loginTest] : Android will be started
-2020-21-07 15:13:46   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:15:02   INFO [loginTest] : Driver is close
-2020-21-07 15:21:53   INFO [loginTest] : Android will be started
-2020-21-07 15:21:53   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:23:07   INFO [loginTest] : Driver is close
-2020-21-07 15:23:32   INFO [loginTest] : Android will be started
-2020-21-07 15:23:32   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:24:47   INFO [loginTest] : Driver is close
-2020-21-07 15:32:47   INFO [loginTest] : Android will be started
-2020-21-07 15:32:47   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 15:33:31   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:33:32   INFO [libs.ActionsWithOurElements] : Text vivika@test.test [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Email']] was entered
-2020-21-07 15:33:33   INFO [libs.ActionsWithOurElements] : Text qwerty [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Password']] was entered
-2020-21-07 15:33:34   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 15:33:57   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='While using the app']] was clicked
-2020-21-07 15:33:59   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Deny']] was clicked
-2020-21-07 15:34:01   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Deny']] was clicked
-2020-21-07 15:34:29   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (67c0feae-4375-4826-9bf3-23e52c484996)] -> xpath: //*[@text='Logbook']] is enable
-2020-21-07 15:34:30   INFO [loginTest] : AC passed
-2020-21-07 15:34:32   INFO [loginTest] : Driver is close
-2020-21-07 15:59:22   INFO [loginTest] : Android will be started
-2020-21-07 15:59:22   INFO [loginTest] : deviceName emulator-5554
-2020-21-07 16:00:11   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 16:00:13   INFO [libs.ActionsWithOurElements] : Text vivika@test.test [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Email']] was entered
-2020-21-07 16:00:14   INFO [libs.ActionsWithOurElements] : Text qwerty [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Password']] was entered
-2020-21-07 16:00:14   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Log in']] was clicked
-2020-21-07 16:00:40   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='While using the app']] was clicked
-2020-21-07 16:00:42   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Deny']] was clicked
-2020-21-07 16:00:43   INFO [libs.ActionsWithOurElements] : Element [[AndroidDriver:  on LINUX (7e32fa13-64b6-4253-8183-be2c034457c5)] -> xpath: //*[@text='Deny']] was clicked
-2020-21-07 16:01:21   INFO [loginTest] : Driver is close
+2020-15-07 12:19:38   INFO [iosTest.loginTest] : AC passed
+2020-15-07 12:19:40   INFO [iosTest.loginTest] : Driver is close
+2020-22-07 15:33:03   INFO [iosTest.loginTest] : Android will be started
+2020-22-07 15:48:49   INFO [iosTest.loginTest] : Android will be started
+2020-22-07 15:49:51   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:10:07   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:11:50   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:14:19   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:15:26   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:16:39   INFO [iosTest.loginTest] : Driver is close
+2020-22-07 16:17:57   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:19:09   INFO [iosTest.loginTest] : Driver is close
+2020-22-07 16:21:00   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:22:07   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:23:00   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:35:42   INFO [iosTest.loginTest] : IOS will be started
+2020-22-07 16:36:25   INFO [libs.ActionsWithOurElements] : Element [[IOSDriver:  on MAC (96cb6ddf-8276-42c1-a34f-6891e0ae3320)] -> xpath: //XCUIElementTypeStaticText[@name='Log in']] was clicked
+2020-22-07 16:36:31  ERROR [libs.ActionsWithOurElements] : Cannot work with element org.openqa.selenium.InvalidElementStateException: Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
+Session ID: 96cb6ddf-8276-42c1-a34f-6891e0ae3320
+2020-22-07 16:36:33   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 13:27:22   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 13:27:22   INFO [iosTest.loginTest] : platformVersion is null
+2020-23-07 14:59:36   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:00:19   INFO [libs.ActionsWithOurElements] : Element [[IOSDriver:  on MAC (f044c705-9dcb-44c0-a76b-e9981d31ea40)] -> xpath: //XCUIElementTypeStaticText[@name='Log in']] was clicked
+2020-23-07 15:00:26  ERROR [libs.ActionsWithOurElements] : Cannot work with element org.openqa.selenium.InvalidElementStateException: Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {NoReset: true, app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
+Session ID: f044c705-9dcb-44c0-a76b-e9981d31ea40
+2020-23-07 15:00:27   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 15:25:48   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:26:36   INFO [libs.ActionsWithOurElements] : Element [[IOSDriver:  on MAC (e1cf7ef9-dffe-42e8-8bdc-8dcd4166a97b)] -> xpath: //XCUIElementTypeStaticText[@name='Log in']] was clicked
+2020-23-07 15:26:42  ERROR [libs.ActionsWithOurElements] : Cannot work with element org.openqa.selenium.InvalidElementStateException: Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook.local', ip: '192.168.88.145', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {NoReset: true, app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
+Session ID: e1cf7ef9-dffe-42e8-8bdc-8dcd4166a97b
+2020-23-07 15:26:43   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 15:50:35   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:51:23   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 15:54:08   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:54:50   INFO [libs.ActionsWithOurElements] : Element [[IOSDriver:  on MAC (e518411f-9508-4fd7-b7ad-d1f1b24841dc)] -> xpath: //XCUIElementTypeStaticText[@name='Log in']] was clicked
+2020-23-07 15:54:57  ERROR [libs.ActionsWithOurElements] : Cannot work with element org.openqa.selenium.InvalidElementStateException: Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {NoReset: true, app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
+Session ID: e518411f-9508-4fd7-b7ad-d1f1b24841dc
+2020-23-07 15:54:58   INFO [iosTest.loginTest] : Driver is close
