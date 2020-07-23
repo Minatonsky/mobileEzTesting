@@ -9,13 +9,12 @@ public class LoginView extends ParentView{
 
 
     private String LoginButton;
+
     Logger logger = Logger.getLogger(getClass());
 
-    public LoginView(AppiumDriver<WebElement> driver) {
-        super(driver);
+    public LoginView(AppiumDriver<WebElement> driver, String driverName) {
+        super(driver, driverName);
     }
-
-    String driverName = "ios";
 
 
     public String loginButton(String driverName){

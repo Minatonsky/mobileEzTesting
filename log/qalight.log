@@ -85,3 +85,14 @@ Driver info: io.appium.java_client.ios.IOSDriver
 Capabilities {NoReset: true, app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
 Session ID: e1cf7ef9-dffe-42e8-8bdc-8dcd4166a97b
 2020-23-07 15:26:43   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 15:50:35   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:51:23   INFO [iosTest.loginTest] : Driver is close
+2020-23-07 15:54:08   INFO [iosTest.loginTest] : IOS will be started
+2020-23-07 15:54:50   INFO [libs.ActionsWithOurElements] : Element [[IOSDriver:  on MAC (e518411f-9508-4fd7-b7ad-d1f1b24841dc)] -> xpath: //XCUIElementTypeStaticText[@name='Log in']] was clicked
+2020-23-07 15:54:57  ERROR [libs.ActionsWithOurElements] : Cannot work with element org.openqa.selenium.InvalidElementStateException: Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {NoReset: true, app: Users/liuda/Library/Develop..., browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 13.6, takesScreenshot: true, udid: 0BBFA384-0DCF-4417-B9E6-F7E..., webStorageEnabled: false}
+Session ID: e518411f-9508-4fd7-b7ad-d1f1b24841dc
+2020-23-07 15:54:58   INFO [iosTest.loginTest] : Driver is close

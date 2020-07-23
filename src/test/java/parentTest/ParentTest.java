@@ -39,7 +39,7 @@ public class ParentTest {
         initDriver(driverName);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        loginView = new LoginView(driver);
+        loginView = new LoginView(driver, driverName);
 
     }
     private void initDriver(String driverName) throws IOException {
