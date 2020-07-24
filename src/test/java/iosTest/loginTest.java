@@ -1,28 +1,33 @@
 package iosTest;
 
+import org.json.simple.JSONObject;
 import org.junit.Test;
 import parentTest.ParentTest;
+import static libs.Utils.*;
 
 import static libs.Utils.waitABit;
 
 public class loginTest extends ParentTest {
-    String login = "aezlogz@gmail.com";
-    String pass = "1n91EfUV";
+
+
+    JSONObject jo = (JSONObject) readJsonSimpleDemo(configProperties.DATA_FILE_PATH()+"driverLoginWithTeamDriver_Osnova.json");
+
+    public loginTest() throws Exception {
+    }
+    String login = jo.get("login").toString();
+    String pass = jo.get("pass").toString();
+    String teamDriver = jo.get("teamDriver").toString();
 
     @Test
     public void validLogin(){
-        waitABit(20);
-//        loginView.closeUpdatePopUp();
-//        loginView.clickOnAccessLocationPopUp();
         loginView.clickOnLoginButton();
         loginView.enterLogin(login);
         loginView.enterPass(pass);
         loginView.clickOnSubmitLoginButton();
+        loginView.closeTeamDriverPopup(teamDriver);
 
-        loginView.clickOnDenyContactPopUp();
-        loginView.clickOnDenyPhotoPopUp();
-        waitABit(5);
         checkAC("Maine view is not displayed", loginView.isMainViewDisplayed(), true);
+        navigateMenu.doLogout();
 
     }
 }
