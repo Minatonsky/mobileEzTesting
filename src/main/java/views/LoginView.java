@@ -25,6 +25,14 @@ public class LoginView extends ParentView{
         }
     }
 
+    public String signUpButton() {
+        return "//XCUIElementTypeButton[@name=\"Register\"]";
+    }
+
+    public String updateCancelButton() {
+        return "//XCUIElementTypeButton[@name=\"Cancel\"]";
+    }
+
 //    String LoginButton = "//XCUIElementTypeStaticText[@name='Log in']";
 
 
@@ -35,6 +43,14 @@ public class LoginView extends ParentView{
 
     public void clickOnLoginButton() {
         actionsWithOurElements.clickOnElement(driver.findElementByXPath(loginButton(driverName)));
+    }
+
+    public void clickOnSignUpButton() {
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath(signUpButton()));
+    }
+
+    public void clickOnUpdateCancelButton() {
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath(updateCancelButton()));
     }
 
     public void enterLogin(String text) {

@@ -15,6 +15,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import views.LoginView;
+import views.SignUpView;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,6 +31,7 @@ public class ParentTest {
     AppiumDriver driver;
 
     protected LoginView loginView;
+    protected SignUpView signUpView;
     Logger logger = Logger.getLogger(getClass());
     String driverName = "ios";
 
@@ -40,6 +42,7 @@ public class ParentTest {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         loginView = new LoginView(driver, driverName);
+        signUpView = new SignUpView(driver, driverName);
 
     }
     private void initDriver(String driverName) throws IOException {
@@ -59,6 +62,7 @@ public class ParentTest {
             capabilities.setCapability("platformName", "IOS");
             capabilities.setCapability("platformVersion", "13.6");
             capabilities.setCapability("deviceName", "iPhone 8");
+//            capabilities.setCapability("autoAcceptAlerts", "true");
             capabilities.setCapability("NoReset", true);
             capabilities.setCapability("app", "Users/liuda/Library/Developer/Xcode/DerivedData/Ezlogz-epoddvtzccjrrzcoggrteqmmhslr/Build/Products/Debug-iphonesimulator/Ezlogz.app");
             driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
