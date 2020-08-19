@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 public class LoginView extends ParentView{
 
 
-    private String LoginButton;
 
     Logger logger = Logger.getLogger(getClass());
 
@@ -17,13 +16,14 @@ public class LoginView extends ParentView{
     }
 
 
-    public String loginButton(String driverName){
+    public void clickOnLoginButton(){
         if (driverName.equals("ios")){
-            return LoginButton = "//XCUIElementTypeStaticText[@name='Log in']";
+            actionsWithOurElements.clickOnElement(driver.findElementByXPath("//XCUIElementTypeStaticText[@name='Log in']"));
         } else{
-            return LoginButton = "//*[@text='Log in']";
+            actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Log in']"));
         }
     }
+
 
     public String signUpButton() {
         return "//XCUIElementTypeButton[@name=\"Register\"]";
@@ -39,10 +39,22 @@ public class LoginView extends ParentView{
     public void closeUpdatePopUp() {
         actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
 
+
+    public void enterLogin(String text){
+        if (driverName.equals("ios")){
+            actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[8]"), text);
+        } else{
+            actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//*[@text='Email']"), text);
+        }
+
     }
 
-    public void clickOnLoginButton() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath(loginButton(driverName)));
+    public void enterPass(String text){
+        if (driverName.equals("ios")){
+            actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[10]"), text);
+        } else{
+            actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//*[@text='Password']"), text);
+        }
     }
 
     public void clickOnSignUpButton() {
@@ -55,28 +67,42 @@ public class LoginView extends ParentView{
 
     public void enterLogin(String text) {
         actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[8]"), text);
-    }
-
-    public void enterPass(String text) {
-        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[10]"), text);
-    }
 
     public void clickOnSubmitLoginButton() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Log in']"));
+        if (driverName.equals("ios")) {
+            actionsWithOurElements.clickOnElement(driver.findElementByXPath(""));
+        } else {
+            actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Log in']"));
+        }
+
+    }
+    public void closeTeamDriverPopup(String teamDriverValue){
+        if (teamDriverValue.equals("1")){
+            if (driverName.equals("ios")) {
+                actionsWithOurElements.clickOnElement(driver.findElementByXPath(""));
+            } else {
+                actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CANCEL']"));
+            }
+        }
+
     }
 
-    public void clickOnAccessLocationPopUp() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='While using the app']"));
+    public boolean isMainViewDisplayed() {
+        if (driverName.equals("ios")) {
+            return actionsWithOurElements.isElementEnable(driver.findElementByXPath(""));
+        } else {
+            return actionsWithOurElements.isElementEnable(driver.findElementByXPath("//*[@text='Logbook']"));
+        }
     }
 
-    public void clickOnDenyContactPopUp() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Deny']"));
-    }
 
-    public void clickOnDenyPhotoPopUp() {
-        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Deny']"));
-    }
-    public boolean isMainViewDisplayed(){return actionsWithOurElements.isElementEnable(driver.findElementByXPath("//*[@text='Logbook']"));}
+
+
+
+
+
+
+
 
 
 }
