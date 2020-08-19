@@ -24,12 +24,29 @@ public class LoginView extends ParentView{
         }
     }
 
+
+    public String signUpButton() {
+        return "//XCUIElementTypeButton[@name=\"Register\"]";
+    }
+
+    public String updateCancelButton() {
+        return "//XCUIElementTypeButton[@name=\"Cancel\"]";
+    }
+
+//    String LoginButton = "//XCUIElementTypeStaticText[@name='Log in']";
+
+
+    public void closeUpdatePopUp() {
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='CLOSE']"));
+
+
     public void enterLogin(String text){
         if (driverName.equals("ios")){
             actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[8]"), text);
         } else{
             actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//*[@text='Email']"), text);
         }
+
     }
 
     public void enterPass(String text){
@@ -40,12 +57,25 @@ public class LoginView extends ParentView{
         }
     }
 
+
+    public void clickOnSignUpButton() {
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath(signUpButton()));
+    }
+
+    public void clickOnUpdateCancelButton() {
+        actionsWithOurElements.clickOnElement(driver.findElementByXPath(updateCancelButton()));
+    }
+
+    public void enterLogin(String text) {
+        actionsWithOurElements.enterTextOnElement(driver.findElementByXPath("//XCUIElementTypeCell[8]"), text);
+
     public void clickOnSubmitLoginButton() {
         if (driverName.equals("ios")) {
             actionsWithOurElements.clickOnElement(driver.findElementByXPath(""));
         } else {
             actionsWithOurElements.clickOnElement(driver.findElementByXPath("//*[@text='Log in']"));
         }
+
     }
     public void closeTeamDriverPopup(String teamDriverValue){
         if (teamDriverValue.equals("1")){
